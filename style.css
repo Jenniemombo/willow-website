@@ -4,3 +4,14 @@ header { background: #b8c5b2; padding: 20px; text-align: center; }
 nav a { margin: 0 10px; text-decoration: none; color: #333; font-weight: bold; }
 main { padding: 20px; max-width: 800px; margin: auto; }
 footer { text-align: center; padding: 20px; background: #e1e7df; margin-top: 40px; }
+<footer>
+  <p>© 2025 Willow Wellness & Massage</p>
+  <div class="social-icons">
+    <a href="https://www.facebook.com/WillowWellnessMassage" target="_blank">
+      <img src="facebook.png" alt="Facebook" />
+    </a>
+    <a href="https://www.instagram.com/WillowWellnessMassage" target="_blank">
+      <img src="instagram.png" alt="Instagram" />
+    </a>
+  </div>
+</footer>
