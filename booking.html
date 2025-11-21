@@ -13,6 +13,7 @@
       color: #333;
     }
 
+    /* Header */
     header {
       display: flex;
       align-items: center;
@@ -25,10 +26,20 @@
       z-index: 1000;
     }
 
-    header img {
-      height: 60px;
+    /* Logo button */
+    .logo-button {
+      border: none;
+      background: none;
+      padding: 0;
+      cursor: pointer;
     }
 
+    .logo-button img {
+      height: 60px;
+      display: block;
+    }
+
+    /* Navigation */
     nav a {
       text-decoration: none;
       color: #4a6a3f;
@@ -44,6 +55,7 @@
       border-radius: 6px;
     }
 
+    /* Main content */
     main {
       max-width: 800px;
       margin: 60px auto;
@@ -80,6 +92,13 @@
       background-color: #55724a;
     }
 
+    .info-section {
+      text-align: center;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Footer */
     footer {
       background-color: #ffffff;
       padding: 20px 0;
@@ -117,7 +136,12 @@
 
   <!-- Header -->
   <header>
-    <a href="index.html"><img src="images/willow-logo.png" alt="Willow Wellness & Massage"></a>
+    <!-- Logo as a button -->
+    <button class="logo-button" onclick="window.location.href='index.html'">
+      <img src="images/willow-logo.png" alt="Willow Wellness & Massage">
+    </button>
+
+    <!-- Navigation -->
     <nav>
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
@@ -137,7 +161,7 @@
     </div>
 
     <div class="info-section">
-      <p>Whether you’re looking for deep tissue relief, relaxation, prenatal care, or any of our specialized therapies, our team is here to help you feel your best. Sessions are personalized for your comfort and wellness.</p>
+      <p>Whether you’re looking for deep tissue relief, relaxation, prenatal care, or any of our specialized therapies, our sessions are personalized for your comfort and wellness.</p>
     </div>
   </main>
 
@@ -145,17 +169,14 @@
   <footer>
     <div class="socials">
       <a href="https://www.facebook.com/YOUR_FACEBOOK" target="_blank" aria-label="Facebook">
-        <i class="fab fa-facebook-f"></i> FB
+        FB
       </a>
       <a href="https://www.instagram.com/YOUR_INSTAGRAM" target="_blank" aria-label="Instagram">
-        <i class="fab fa-instagram"></i> IG
+        IG
       </a>
     </div>
     <p style="margin-top: 10px; color: #4a6a3f;">&copy; 2025 Willow Wellness & Massage</p>
   </footer>
-
-  <!-- Optional: Font Awesome for social icons -->
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
