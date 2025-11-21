@@ -1,11 +1,9 @@
-/* style.css */
-
-/* General Styles */
+/* Global styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f8f9f5;
+  background-color: #f8f9f5;
   color: #333;
 }
 
@@ -15,13 +13,14 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px 40px;
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
+/* Logo button */
 .logo-button {
   border: none;
   background: none;
@@ -34,6 +33,7 @@ header {
   display: block;
 }
 
+/* Navigation */
 nav a {
   text-decoration: none;
   color: #4a6a3f;
@@ -49,26 +49,27 @@ nav a.book-now {
   border-radius: 6px;
 }
 
-/* Main Content */
+/* Main content */
 main {
-  max-width: 900px;
+  max-width: 800px;
   margin: 60px auto;
-  padding: 40px 30px;
+  padding: 20px;
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  text-align: center;
 }
 
 main h1 {
   color: #6b8e5a;
-  font-size: 36px;
+  text-align: center;
   margin-bottom: 30px;
+  font-size: 32px;
 }
 
-h2 {text-align: center;
-    font-size: 2rem;
-    }
+.booking-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
 .booking-section a {
   text-decoration: none;
@@ -86,46 +87,18 @@ h2 {text-align: center;
 }
 
 .info-section {
-  margin-top: 30px;
+  text-align: center;
   line-height: 1.6;
   color: #333;
 }
 
-/* Service Cards */
-.service-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 20px;
-}
-
-.service-card {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  width: 300px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  text-align: left;
-}
-
-.service-card h3 {
-  color: #4a6a3f;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.service-card p {
-  line-height: 1.6;
-}
-
 /* Footer */
 footer {
-  background: #ffffff;
+  background-color: #ffffff;
   padding: 20px 0;
   text-align: center;
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
   margin-top: 40px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
 }
 
 .socials a {
@@ -134,7 +107,7 @@ footer {
   text-decoration: none;
   color: #4a6a3f;
   font-size: 24px;
-  transition: color 0.3s;
+  transition: color 0.3s ease;
 }
 
 .socials a:hover {
@@ -145,14 +118,6 @@ footer {
 @media (max-width: 600px) {
   main {
     margin: 20px;
-    padding: 20px;
-  }
-
-  .service-card {
-    width: 100%;
-  }
-
-  nav {
-    display: none; /* optional: hide nav on small screens */
+    padding: 15px;
   }
 }
