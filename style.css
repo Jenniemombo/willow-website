@@ -1,21 +1,158 @@
+/* style.css */
 
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f6f8f5; color: #333; }
-header { background: #b8c5b2; padding: 20px; text-align: center; }
-nav a { margin: 0 10px; text-decoration: none; color: #333; font-weight: bold; }
-main { padding: 20px; max-width: 800px; margin: auto; }
-footer { text-align: center; padding: 20px; background: #e1e7df; margin-top: 40px; }
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.logo-button img {
+  height: 60px;
+  display: block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4a6a3f;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+nav a.book-now {
+  background-color: #6b8e5a;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+/* Main Content */
+main {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+main h1 {
+  color: #6b8e5a;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
 h2 {text-align: center;
     font-size: 2rem;
-   }
-</footer>
-  <p>© 2025 Willow Wellness & Massage</p>
+    }
 
-  <div class="social-icons">
-    <a href="https://www.facebook.com/WillowWellnessMassage" target="_blank">
-      <img src="facebook.png" alt="Facebook" />
-    </a>
-    <a href="https://www.instagram.com/WillowWellnessMassage" target="_blank">
-      <img src="instagram.png" alt="Instagram" />
-    </a>
-  </div>
-<footer>
+.booking-section a {
+  text-decoration: none;
+  background-color: #6b8e5a;
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.booking-section a:hover {
+  background-color: #55724a;
+}
+
+.info-section {
+  margin-top: 30px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Service Cards */
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.service-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.service-card h3 {
+  color: #4a6a3f;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+  margin-top: 40px;
+}
+
+.socials a {
+  margin: 0 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #4a6a3f;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #6b8e5a;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .service-card {
+    width: 100%;
+  }
+
+  nav {
+    display: none; /* optional: hide nav on small screens */
+  }
+}
