@@ -1,39 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index - Willow Wellness & Massage</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Your Session | Willow Wellness & Massage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9f5;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4a6a3f;
+      font-weight: 600;
+      font-size: 16px;
+      margin-left: 30px;
+    }
+
+    nav a.book-now {
+      background-color: #6b8e5a;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 6px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    main h1 {
+      color: #6b8e5a;
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+
+    .booking-section {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .booking-section a {
+      text-decoration: none;
+      background-color: #6b8e5a;
+      color: white;
+      padding: 14px 28px;
+      font-size: 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .booking-section a:hover {
+      background-color: #55724a;
+    }
+
+    footer {
+      background-color: #ffffff;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 40px;
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+    }
+
+    .socials a {
+      margin: 0 10px;
+      display: inline-block;
+      text-decoration: none;
+      color: #4a6a3f;
+      font-size: 24px;
+      transition: color 0.3s ease;
+    }
+
+    .socials a:hover {
+      color: #6b8e5a;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        display: none; /* Optional: hide nav on mobile for now */
+      }
+      main {
+        margin: 20px;
+        padding: 15px;
+      }
+    }
+
+  </style>
 </head>
 <body>
-<header>
-    <h1>Willow Wellness & Massage</h1>
+
+  <!-- Header -->
+  <header>
+    <a href="index.html"><img src="images/willow-logo.png" alt="Willow Wellness & Massage"></a>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="booking.html">Booking</a>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="booking.html" class="book-now">Book Now</a>
     </nav>
-</header>
-<main>
+  </header>
 
-<h2>Booking</h2>
-<a href="https://willowwellnessmassage.clinicsense.com" target="_blank">Book Now</a>
+  <!-- Main Content -->
+  <main>
+    <h1>Book Your Session</h1>
+    
+    <div class="booking-section">
+      <p>Ready to feel your best? Click the button below to schedule your massage session with Willow Wellness.</p>
+      <a href="YOUR_BOOKING_LINK_HERE" target="_blank">Book Now</a>
+    </div>
 
-</main>
-<footer>
-    <p>© 2025 Willow Wellness & Massage</p>
- <div class="social-icons">
-  <a href="https://www.instagram.com/rmt.jennie.mombourquette" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" 
-         alt="Instagram" width="30">
-  </a>
+    <div class="info-section">
+      <p>Whether you’re looking for deep tissue relief, relaxation, prenatal care, or any of our specialized therapies, our team is here to help you feel your best. Sessions are personalized for your comfort and wellness.</p>
+    </div>
+  </main>
 
-  <a href="https://www.facebook.com/WillowWellness&Massage" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg" 
-         alt="Facebook" width="30">
-</footer>
+  <!-- Footer with Socials -->
+  <footer>
+    <div class="socials">
+      <a href="https://www.facebook.com/YOUR_FACEBOOK" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i> FB
+      </a>
+      <a href="https://www.instagram.com/YOUR_INSTAGRAM" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i> IG
+      </a>
+    </div>
+    <p style="margin-top: 10px; color: #4a6a3f;">&copy; 2025 Willow Wellness & Massage</p>
+  </footer>
+
+  <!-- Optional: Font Awesome for social icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
