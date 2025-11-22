@@ -3,4 +3,16 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f6f8f
 header { background: #b8c5b2; padding: 20px; text-align: center; }
 nav a { margin: 0 10px; text-decoration: none; color: #333; font-weight: bold; }
 main { padding: 20px; max-width: 800px; margin: auto; }
-footer { text-align: center; padding: 20px; background: #e1e7df; margin-top: 40px; }
+footer { text-align: center; padding: 20px; background: #e1e7df; margin-top: 40px;
+    <div class="social-icons">
+  <a href="https://www.instagram.com/YOURUSERNAME" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" 
+         alt="Instagram" width="30">
+  </a>
+
+  <a href="https://www.facebook.com/YOURUSERNAME" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg" 
+         alt="Facebook" width="30">
+  </a>
+</div>
+     }
