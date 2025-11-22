@@ -3,7 +3,6 @@ title: Contact
 layout: default
 ---
 
-# Contact
 
 # Contact Willow Wellness & Massage
 
@@ -13,7 +12,7 @@ We’d love to hear from you! Whether you’re booking your next massage or have
 
 ## 📞 Contact Information
 - **Business Name:** Willow Wellness & Massage  
-- **Owner & Therapist:** Jennie Mombo  
+- **Owner & Therapist:** Jennie Mombourquette
 - **Phone:** [(403) 968-3601](tel:4039683601) (text or call)  
 - **Email:** [willowwellness.m.l@gmail.com](mailto:willowwellness.m.l@gmail.com)  
 - **Online Booking:** [Book your appointment here](https://willowwellnessmassage.clinicsense.com/book/)  
