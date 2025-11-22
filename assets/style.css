@@ -1,1 +1,45 @@
 body{font-family:Arial;margin:0} .site-header{background:#9BAA96;padding:10px}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.site-header {
+  background: #9BAA96;   /* soft green background */
+  padding: 10px 20px;    /* space inside header */
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;   /* vertically center logo, nav, and button */
+  justify-content: space-between;
+}
+
+.logo {
+  height: 1.5em;         /* scales with text size */
+  vertical-align: middle;
+}
+
+.nav-menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;           /* white text for contrast */
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.book-btn {
+  background: #556B2F;   /* darker green for button */
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.book-btn:hover {
+  background: #6B8E23;   /* lighter hover shade */
+}
