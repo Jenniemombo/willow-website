@@ -43,3 +43,19 @@ body {
 .book-btn:hover {
   background: #6B8E23;   /* lighter hover shade */
 }
+.social-footer {
+  background-color: #9BAA96;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
