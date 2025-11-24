@@ -46,19 +46,3 @@ We’d love to hear from you! Whether you’re booking your next massage or have
 <a class="review-btn" href="https://g.page/r/CXDK-wdlJSuHEBM/review" target="_blank">
   ⭐ Leave a Google Review
 </a>
-<div class="review-slideshow">
-
-  <div class="review-slide fade">
-    <p>"Jennie is absolutely incredible. Best massage I’ve had in years!"</p>
-  </div>
-
-  <div class="review-slide fade">
-    <p>"The space is beautiful, calming, and so professional. Highly recommend."</p>
-  </div>
-
-  <div class="review-slide fade">
-    <p>"I always leave feeling lighter and pain-free. Amazing care every time."</p>
-  </div>
-
-</div>
-
