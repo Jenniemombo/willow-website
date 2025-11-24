@@ -3,6 +3,8 @@ title: About
 layout: default
 ---
 
+# About
+
 Hi, I’m Jennie — the heart behind Willow Wellness and Massage.
 I’m a dedicated massage therapist who believes that healing begins when people feel truly seen, supported, and cared for. My approach is grounded in compassion, intuition, and a deep respect for each person’s unique journey.
 
