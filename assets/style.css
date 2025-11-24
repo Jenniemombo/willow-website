@@ -36,7 +36,9 @@ body {
 .nav-menu a:hover {
   text-decoration: underline;
 }
-
+body {
+  background-color: #F4F0E6; /* pick any color */
+}
 .book-btn {
   background: #556B2F;   /* darker green for button */
   color: #fff;
