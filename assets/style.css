@@ -83,3 +83,50 @@ body {
 .review-btn:hover {
   background-color: #86A277; /* your sage */
 }
+
+.review-slideshow {
+  position: relative;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  min-height: 140px;
+}
+
+.review-slide {
+  display: none;
+  padding: 20px;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #3C3C3C;
+}
+
+.review-slide p {
+  margin: 0;
+}
+
+.review-slideshow .fade {
+  animation: fadeEffect 2.5s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* Automatic rotation */
+@keyframes slideShow {
+  0% {display: block;}
+}
+
+/* This controls the timing — edit if you need more slides */
+.review-slide:nth-child(1) { animation: showSlide 12s infinite 0s; }
+.review-slide:nth-child(2) { animation: showSlide 12s infinite 4s; }
+.review-slide:nth-child(3) { animation: showSlide 12s infinite 8s; }
+
+@keyframes showSlide {
+  0% { opacity: 0; }
+  5% { opacity: 1; display: block; }
+  30% { opacity: 1; display: block; }
+  35% { opacity: 0; display: none; }
+  100% { display: none; }
+}
