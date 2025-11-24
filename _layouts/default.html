@@ -3,15 +3,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>{{ page.title }}</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/assets/style.css">
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/style.css">
 </head>
+
 <body>
 <header class="site-header">
   <div class="header-inner">
-    <a href="/"><img src="/assets/logo.png" class="logo"></a>
+    <a href="/"><img src="/assets/logo.png" class="logo" alt="Logo"></a>
     <nav class="nav-menu">
       <a href="/">Home</a>
       <a href="/about">About</a>
@@ -21,23 +22,28 @@
     <a href="/booking" class="book-btn">Book Now</a>
   </div>
 </header>
+
 <main class="content">{{ content }}</main>
+
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="gold-divider"></div>
     <div class="social-icons">
-  <a href="https://www.instagram.com/rmt.jennie.mombourquette" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" 
-         alt="Instagram" width="30">
-  </a>
 
-  <a href="https://www.facebook.com/WillowWellness&Massage" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg" 
-         alt="Facebook" width="30">
-  </a>
-</div>
+      <a href="https://www.instagram.com/rmt.jennie.mombourquette" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" 
+             alt="Instagram" width="30">
+      </a>
+
+      <a href="https://www.facebook.com/WillowWellnessMassage" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg" 
+             alt="Facebook" width="30">
+      </a>
+
+    </div>
     <p>© Willow Wellness & Massage</p>
   </div>
 </footer>
+
 </body>
 </html>
