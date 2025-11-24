@@ -70,3 +70,16 @@ body {
   margin: 0 10px;
   vertical-align: middle;
 }
+
+.review-btn {
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #556B2F; /* deep olive */
+  color: white;
+  display: inline-block;
+}
+.review-btn:hover {
+  background-color: #86A277; /* your sage */
+}
