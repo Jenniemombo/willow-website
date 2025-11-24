@@ -1,46 +1,50 @@
-body{font-family:Arial;margin:0} .site-header{background: #86a277;padding:10px}
 body {
   font-family: Arial, sans-serif;
-  margin: 0; background-color: #F7F6F2; /* warm cream */ 
+  margin: 0;
+  background-color: #F4F0E6; /* final chosen background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
+/* HEADER */
 .site-header {
-  background: #86a277;   /* soft green background */
-  padding: 10px 20px;    /* space inside header */
+  background: #86a277; /* soft green */
+  padding: 10px 20px;
 }
 
 .header-inner {
   display: flex;
-  align-items: center;   /* vertically center logo, nav, and button */
+  align-items: center;
   justify-content: space-between;
 }
 
 .site-logo {
-  height: 80px;   /* adjust size */
+  height: 80px;
   display: block;
-  margin: 0 auto; /* center it */
+  margin: 0 auto;
 }
 
 .logo {
-  height: 3.5em;         /* scales with text size */
+  height: 3.5em;
   vertical-align: middle;
 }
 
+/* NAV */
 .nav-menu a {
   margin: 0 10px;
   text-decoration: none;
-  color: #fff;           /* white text for contrast */
+  color: #fff;
   font-weight: bold;
 }
 
 .nav-menu a:hover {
   text-decoration: underline;
 }
-body {
-  background-color: #F4F0E6; /* pick any color */
-}
+
+/* BOOKING BUTTON */
 .book-btn {
-  background: #556B2F;   /* darker green for button */
+  background: #556B2F;
   color: #fff;
   padding: 8px 16px;
   border-radius: 4px;
@@ -49,15 +53,10 @@ body {
 }
 
 .book-btn:hover {
-  background: #6B8E23;   /* lighter hover shade */
-}
-body {
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background: #6B8E23;
 }
 
+/* SOCIAL FOOTER */
 .social-footer {
   background-color: #9BAA96;
   padding: 20px;
