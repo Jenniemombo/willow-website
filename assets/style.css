@@ -228,3 +228,26 @@ main.content a {
     justify-content: space-between;
   }
 }
+
+/* CENTER PAGE LINKS IN MAIN CONTENT */
+main.content .page-links {
+  display: flex;
+  justify-content: center;  /* centers the links horizontally */
+  gap: 30px;                /* space between each link */
+  flex-wrap: wrap;           /* wrap on smaller screens */
+  margin: 20px 0;           /* vertical spacing above/below */
+}
+
+main.content .page-links a {
+  text-decoration: none;
+  color: #556B2F;           /* brand color */
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  transition: background 0.25s ease;
+}
+
+main.content .page-links a:hover {
+  background: rgba(85,107,47,0.1);  /* subtle hover highlight */
+  border-radius: 5px;
+}
