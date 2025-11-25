@@ -1,8 +1,72 @@
-/* ───────────────────────────────
-   HAMBURGER MENU
-──────────────────────────────── */
+/* GENERAL PAGE STYLE */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #F4F0E6; /* final chosen background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-/* Hide the hamburger on desktop */
+/* HEADER */
+.site-header {
+  background: #86a277; /* soft sage green */
+  padding: 10px 20px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 3.5em;
+  vertical-align: middle;
+}
+
+/* DESKTOP NAV */
+.nav-menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.social-footer,
+.site-footer {
+  background-color: #9BAA96;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.review-btn {
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #556B2F;
+  color: white;
+  display: inline-block;
+}
+
+.review-btn:hover {
+  background-color: #86A277;
+}
+
+/* HAMBURGER */
 .hamburger {
   width: 32px;
   height: 24px;
@@ -12,38 +76,67 @@
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0;
+  z-index: 1001;
 }
 
-/* The 3 lines */
 .hamburger span {
   display: block;
   height: 3px;
   width: 100%;
-  background: white; /* matches your header text */
+  background: white;
   border-radius: 2px;
+  transition: 0.3s ease;
 }
 
-/* Mobile nav menu (hidden by default) */
+/* ANIMATED TO X */
+.hamburger.active span:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+/* MOBILE SLIDE-IN NAV */
 .mobile-nav {
-  display: none;
-  flex-direction: column;
-  gap: 15px;
-  background: #86a277; /* same as header */
-  padding: 20px;
-}
-
-/* When menu is opened */
-.mobile-nav.open {
+  position: fixed;
+  top: 0;
+  right: -260px;
+  width: 250px;
+  height: 100vh;
+  background: #86a277;
   display: flex;
+  flex-direction: column;
+  padding: 80px 20px;
+  gap: 20px;
+  transition: right 0.35s ease;
+  z-index: 1000;
 }
 
-/* Show hamburger and hide desktop nav on mobile */
+.mobile-nav a {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mobile-nav a:hover {
+  text-decoration: underline;
+}
+
+.mobile-nav.open {
+  right: 0;
+}
+
+/* MOBILE RESPONSIVE BEHAVIOUR */
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
   }
-
   .nav-menu {
     display: none;
   }
