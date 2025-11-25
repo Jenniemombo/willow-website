@@ -1,85 +1,50 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #F4F0E6; /* final chosen background */
-  min-height: 100vh;
-  display: flex;
+/* ───────────────────────────────
+   HAMBURGER MENU
+──────────────────────────────── */
+
+/* Hide the hamburger on desktop */
+.hamburger {
+  width: 32px;
+  height: 24px;
+  display: none;
   flex-direction: column;
-}
-
-/* HEADER */
-.site-header {
-  background: #86a277; /* soft green */
-  padding: 10px 20px;
-}
-
-.header-inner {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 
-.site-logo {
-  height: 80px;
+/* The 3 lines */
+.hamburger span {
   display: block;
-  margin: 0 auto;
+  height: 3px;
+  width: 100%;
+  background: white; /* matches your header text */
+  border-radius: 2px;
 }
 
-.logo {
-  height: 3.5em;
-  vertical-align: middle;
-}
-
-/* NAV */
-.nav-menu a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-}
-
-.nav-menu a:hover {
-  text-decoration: underline;
-}
-
-/* BOOKING BUTTON */
-.book-btn {
-  background: #556B2F;
-  color: #fff;
-  padding: 8px 16px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.book-btn:hover {
-  background: #6B8E23;
-}
-
-/* SOCIAL FOOTER */
-.social-footer {
-  background-color: #9BAA96;
+/* Mobile nav menu (hidden by default) */
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  background: #86a277; /* same as header */
   padding: 20px;
-  text-align: center;
-  margin-top: auto;
 }
 
-.social-icon {
-  width: 30px;
-  height: 30px;
-  margin: 0 10px;
-  vertical-align: middle;
+/* When menu is opened */
+.mobile-nav.open {
+  display: flex;
 }
 
-.review-btn {
-  padding: 12px 20px;
-  border-radius: 6px;
-  font-weight: 600;
-  text-decoration: none;
-  background-color: #556B2F; /* deep olive */
-  color: white;
-  display: inline-block;
-}
-.review-btn:hover {
-  background-color: #86A277; /* your sage */
+/* Show hamburger and hide desktop nav on mobile */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+  }
 }
