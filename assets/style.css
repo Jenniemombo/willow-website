@@ -176,3 +176,55 @@ main.content a {
     padding: 20px 15px;
   }
 }
+
+/* HEADER SPACING */
+.site-header {
+  background: #86a277;
+  padding: 20px 20px; /* more top/bottom space */
+  box-sizing: border-box;
+}
+
+/* Header inner spacing */
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* allows wrapping on very small screens */
+}
+
+/* Logo adjustments */
+.logo {
+  height: 3.5em;
+  max-width: 150px; /* optional max width so it doesn’t get huge on large screens */
+}
+
+/* Logo + company name container adjustments */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Company name adjustments */
+.company-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 768px) {
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px; /* space below before nav/hamburger */
+  }
+  .company-name {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .header-inner {
+    justify-content: space-between;
+  }
+}
