@@ -2,7 +2,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #F4F0E6; /* final chosen background */
+  background-color: #F4F0E6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@ body {
 
 /* HEADER */
 .site-header {
-  background: #86a277; /* soft sage green */
+  background: #86a277;
   padding: 10px 20px;
 }
 
@@ -38,7 +38,6 @@ body {
 }
 
 /* FOOTER */
-.social-footer,
 .site-footer {
   background-color: #9BAA96;
   padding: 20px;
@@ -50,20 +49,6 @@ body {
   width: 30px;
   height: 30px;
   margin: 0 10px;
-}
-
-.review-btn {
-  padding: 12px 20px;
-  border-radius: 6px;
-  font-weight: 600;
-  text-decoration: none;
-  background-color: #556B2F;
-  color: white;
-  display: inline-block;
-}
-
-.review-btn:hover {
-  background-color: #86A277;
 }
 
 /* HAMBURGER */
@@ -88,7 +73,7 @@ body {
   transition: 0.3s ease;
 }
 
-/* ANIMATED TO X */
+/* HAMBURGER ANIMATION */
 .hamburger.active span:nth-child(1) {
   transform: translateY(10px) rotate(45deg);
 }
@@ -124,15 +109,11 @@ body {
   text-decoration: none;
 }
 
-.mobile-nav a:hover {
-  text-decoration: underline;
-}
-
 .mobile-nav.open {
   right: 0;
 }
 
-/* MOBILE RESPONSIVE BEHAVIOUR */
+/* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
