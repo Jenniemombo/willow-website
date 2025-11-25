@@ -125,3 +125,54 @@ body {
     display: none;
   }
 }
+/* MAIN CONTENT LAYOUT */
+main.content {
+  max-width: 1000px;   /* prevents super wide content on large screens */
+  margin: 0 auto;       /* centers the content */
+  padding: 20px;        /* space on all sides */
+  line-height: 1.6;     /* easier to read paragraphs */
+  word-wrap: break-word; /* prevents long words from breaking layout */
+}
+
+/* HEADINGS SPACING */
+main.content h1,
+main.content h2,
+main.content h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+/* PARAGRAPHS SPACING */
+main.content p {
+  margin-bottom: 1em;
+}
+
+/* IMAGES SPACING */
+main.content img {
+  max-width: 100%;    /* responsive images */
+  height: auto;
+  display: block;
+  margin: 20px auto;  /* spacing above/below and centered */
+}
+
+/* LINKS IN CONTENT */
+main.content a {
+  color: #556B2F;   /* match brand colors */
+  text-decoration: underline;
+}
+
+/* FOOTER SPACING */
+.site-footer {
+  padding: 30px 20px;  /* extra breathing room */
+}
+
+/* MOBILE ADJUSTMENTS */
+@media (max-width: 768px) {
+  main.content {
+    padding: 15px;      /* smaller padding for smaller screens */
+  }
+
+  .site-footer {
+    padding: 20px 15px;
+  }
+}
