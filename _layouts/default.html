@@ -12,15 +12,34 @@
 <body>
 <header class="site-header">
   <div class="header-inner">
+
+    <!-- LOGO -->
     <a href="/"><img src="/assets/logo.png" class="logo" alt="Logo"></a>
+
+    <!-- DESKTOP NAV -->
     <nav class="nav-menu">
       <a href="/">Home</a>
       <a href="/about">About</a>
       <a href="/services">Services</a>
       <a href="/contact">Contact</a>
     </nav>
-    <a href="/booking" class="book-btn">Book Now</a>
+
+    <!-- HAMBURGER BUTTON -->
+    <button class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
   </div>
+
+  <!-- MOBILE SLIDE-IN MENU -->
+  <nav class="mobile-nav" id="mobile-nav">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/services">Services</a>
+    <a href="/contact">Contact</a>
+  </nav>
 </header>
 
 <main class="content">{{ content }}</main>
