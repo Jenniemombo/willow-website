@@ -37,7 +37,7 @@ body {
 .nav-menu a {
   margin: 0 10px;
   text-decoration: none;
-  color: #fff;
+  color: #86a277;
   font-weight: bold;
 }
 
@@ -47,7 +47,7 @@ body {
 
 /* FOOTER */
 .site-footer {
-  background-color: #9BAA96;
+  background-color: #86a277;
   padding: 20px;
   text-align: center;
   margin-top: auto;
