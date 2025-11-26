@@ -1,5 +1,13 @@
 /* GENERAL PAGE STYLE */
 body {
+    font-family: 'Bodoni Moda', sans-serif;
+}
+
+header {
+    font-family: 'Whisper', sans-serif;
+}
+
+body {
   font-family: 'Bodoni Moda', sans-serif;
   margin: 0; 
   background-color: #F4F0E6;
@@ -227,12 +235,4 @@ main.content a {
   .header-inner {
     justify-content: space-between;
   }
-}
-
-body {
-    font-family: 'Bodoni Moda', sans-serif;
-}
-
-header {
-    font-family: 'Whisper', sans-serif;
 }
