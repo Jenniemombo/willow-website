@@ -6,7 +6,7 @@
 
 @media (max-width: 768px) {
   .company-name {
-    font-size: 2rem;  /* smaller on mobile */
+    font-size: 3rem;  /* smaller on mobile */
     text-align: center;
   }
 }
