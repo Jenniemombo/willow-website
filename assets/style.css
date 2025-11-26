@@ -96,7 +96,7 @@ body {
   top: 0;
   right: 0;
   width: 120px;           /* wider so items don't clip */
-  max-width: 50vw;        /* caps width on small phones */
+  max-width: 40vw;        /* caps width on small phones */
   height: 100vh;
   background: #86a277;
   display: flex;
