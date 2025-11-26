@@ -228,3 +228,11 @@ main.content a {
     justify-content: space-between;
   }
 }
+
+body {
+    font-family: 'Bodoni Mona', sans-serif;
+}
+
+header {
+    font-family: 'Whisper', sans-serif;
+}
