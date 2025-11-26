@@ -1,4 +1,8 @@
 /* GENERAL PAGE STYLE */
+.company-name {
+  font-size: 4rem;   /* adjust number to make text bigger or smaller */
+  font-weight: bold;
+}
 body {
     font-family: 'Bodoni Moda', sans-serif;
 }
