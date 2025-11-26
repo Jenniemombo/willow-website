@@ -95,7 +95,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  width: 320px;           /* wider so items don't clip */
+  width: 220px;           /* wider so items don't clip */
   max-width: 80vw;        /* caps width on small phones */
   height: 100vh;
   background: #86a277;
