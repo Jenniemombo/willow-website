@@ -134,6 +134,11 @@ body {
 .mobile-nav.open {
   transform: translateX(0);
 }
+/* Force mobile slide menu to use body font */
+.mobile-nav,
+.mobile-nav * {
+  font-family: 'Bodoni Moda', sans-serif !important;
+}
 
 /* Make hamburger visible on mobile & hide desktop nav */
 @media (max-width: 768px) {
