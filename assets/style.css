@@ -1,4 +1,21 @@
-/* GENERAL PAGE STYLE */
+/* --------------------------------------------------
+   GLOBAL PAGE STYLE
+-------------------------------------------------- */
+body {
+  font-family: 'Poiret One', sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+  background-color: #F4F0E6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  font-family: 'Poiret One', sans-serif;
+}
+
+/* Company name box style */
 .company-name {
   font-size: 3rem;
   font-weight: bold;
@@ -7,46 +24,81 @@
   border: 2px solid #C7A76C;
   border-radius: 8px;
   display: inline-block;
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
   .company-name {
-    font-size: 3rem;  /* smaller on mobile */
+    font-size: 2rem;
     text-align: center;
   }
 }
 
-header {
-    font-family: 'Poiret One', sans-serif;
-}
-
-body {
-  font-family: 'Poiret One', sans-serif;
-  font-size: 1.2rem;
-  margin: 0; 
-  background-color: #F4F0E6;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-/* HEADER */
+/* --------------------------------------------------
+   HEADER
+-------------------------------------------------- */
 .site-header {
   background: #86a277;
-  padding: 10px 20px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  height: 90px;
 }
 
+/* LOGO – left */
 .logo {
-  height: 3em;
-  vertical-align: middle;
+  height: 3.5em;
+  max-width: 150px;
 }
 
+/* Company name centered using absolute centering */
+.company-name {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* MENU BUTTON – right */
+.hamburger {
+  width: 32px;
+  height: 24px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1002;
+}
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: white;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+
+/* X animation */
+.hamburger.active span:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+.hamburger.active span:nth-child(2) { opacity: 0; }
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+/* --------------------------------------------------
+   NAVIGATION
+-------------------------------------------------- */
 /* DESKTOP NAV */
 .nav-menu a {
   margin: 0 10px;
@@ -59,10 +111,106 @@ body {
   text-decoration: underline;
 }
 
-/* FOOTER */
+/* MOBILE NAV SLIDE-IN */
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 120px;
+  max-width: 40vw;
+  height: 100vh;
+  background: #86a277;
+  display: flex;
+  flex-direction: column;
+  padding: 90px 28px;
+  gap: 20px;
+  transform: translateX(100%);
+  transition: transform 0.35s ease;
+  z-index: 1001;
+  box-shadow: -6px 0 20px rgba(0,0,0,0.12);
+}
+
+.mobile-nav a {
+  color: white;
+  font-size: 1.15rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 0;
+}
+
+.mobile-nav a:hover {
+  text-decoration: underline;
+}
+
+/* When open */
+.mobile-nav.open {
+  transform: translateX(0);
+}
+
+/* Mobile menu font override */
+.mobile-nav,
+.mobile-nav * {
+  font-family: 'Bodoni Moda', sans-serif !important;
+}
+
+/* --------------------------------------------------
+   RESPONSIVE NAV BEHAVIOR
+-------------------------------------------------- */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+  .nav-menu {
+    display: none;
+  }
+}
+
+/* --------------------------------------------------
+   MAIN CONTENT
+-------------------------------------------------- */
+main.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+main.content h1,
+main.content h2,
+main.content h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+main.content p {
+  margin-bottom: 1em;
+}
+
+main.content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+main.content a {
+  color: #86a277;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  main.content {
+    padding: 15px;
+  }
+}
+
+/* --------------------------------------------------
+   FOOTER
+-------------------------------------------------- */
 .site-footer {
   background-color: #86a277;
-  padding: 20px;
+  padding: 30px 20px;
   text-align: center;
   margin-top: auto;
 }
@@ -73,185 +221,8 @@ body {
   margin: 0 10px;
 }
 
-/* HAMBURGER (keep existing rules if already present) */
-.hamburger {
-  width: 32px;
-  height: 24px;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  background: none;
-  border: none;
-  cursor: pointer;
-  z-index: 1002; /* above header while closed */
-}
-
-.hamburger span {
-  display: block;
-  height: 3px;
-  width: 100%;
-  background: white;
-  border-radius: 2px;
-  transition: 0.3s ease;
-}
-
-/* Animation to X */
-.hamburger.active span:nth-child(1) {
-  transform: translateY(10px) rotate(45deg);
-}
-.hamburger.active span:nth-child(2) { opacity: 0; }
-.hamburger.active span:nth-child(3) {
-  transform: translateY(-10px) rotate(-45deg);
-}
-
-/* MOBILE SLIDE-IN NAV (use transform to hide/show) */
-.mobile-nav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 120px;           /* wider so items don't clip */
-  max-width: 40vw;        /* caps width on small phones */
-  height: 100vh;
-  background: #86a277;
-  display: flex;
-  flex-direction: column;
-  padding: 90px 28px;     /* more left padding so text has room */
-  gap: 20px;
-  transform: translateX(100%); /* fully off-screen to the right */
-  transition: transform 0.35s ease;
-  z-index: 1001;          /* sits above content when open */
-  box-shadow: -6px 0 20px rgba(0,0,0,0.12);
-}
-
-.mobile-nav a {
-  color: white;
-  font-size: 1.15rem;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 8px 0;         /* spacing so text doesn't feel cramped */
-}
-
-.mobile-nav a:hover { text-decoration: underline; }
-
-/* When open, reset transform to 0 (fully visible) */
-.mobile-nav.open {
-  transform: translateX(0);
-}
-/* Force mobile slide menu to use body font */
-.mobile-nav,
-.mobile-nav * {
-  font-family: 'Bodoni Moda', sans-serif !important;
-}
-
-/* Make hamburger visible on mobile & hide desktop nav */
 @media (max-width: 768px) {
-  .hamburger {
-    display: flex;
-  }
-  .nav-menu {
-    display: none;
-  }
-}
-/* MAIN CONTENT LAYOUT */
-main.content {
-  max-width: 1000px;   /* prevents super wide content on large screens */
-  margin: 0 auto;       /* centers the content */
-  padding: 20px;        /* space on all sides */
-  line-height: 1.6;     /* easier to read paragraphs */
-  word-wrap: break-word; /* prevents long words from breaking layout */
-}
-
-/* HEADINGS SPACING */
-main.content h1,
-main.content h2,
-main.content h3 {
-  margin-top: 1.5em;
-  margin-bottom: 0.75em;
-}
-
-/* PARAGRAPHS SPACING */
-main.content p {
-  margin-bottom: 1em;
-}
-
-/* IMAGES SPACING */
-main.content img {
-  max-width: 100%;    /* responsive images */
-  height: auto;
-  display: block;
-  margin: 20px auto;  /* spacing above/below and centered */
-}
-
-/* LINKS IN CONTENT */
-main.content a {
-  color: #86a277;   /* match brand colors */
-  text-decoration: underline;
-}
-
-/* FOOTER SPACING */
-.site-footer {
-  padding: 30px 20px;  /* extra breathing room */
-}
-
-/* MOBILE ADJUSTMENTS */
-@media (max-width: 768px) {
-  main.content {
-    padding: 15px;      /* smaller padding for smaller screens */
-  }
-
   .site-footer {
     padding: 20px 15px;
-  }
-}
-
-/* HEADER SPACING */
-.site-header {
-  background: #86a277;
-  padding: 20px 20px; /* more top/bottom space */
-  box-sizing: border-box;
-}
-
-/* Header inner spacing */
-.header-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap; /* allows wrapping on very small screens */
-}
-
-/* Logo adjustments */
-.logo {
-  height: 3.5em;
-  max-width: 150px; /* optional max width so it doesn’t get huge on large screens */
-}
-
-/* Logo + company name container adjustments */
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-/* Company name adjustments */
-.company-name {
-  font-size: 1.4rem;
-  font-weight: bold;
-  white-space: nowrap;
-}
-
-/* Responsive adjustments for small screens */
-@media (max-width: 768px) {
-  .logo-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-    margin-bottom: 10px; /* space below before nav/hamburger */
-  }
-  .company-name {
-    font-size: 1.2rem;
-    text-align: center;
-  }
-  .header-inner {
-    justify-content: space-between;
   }
 }
