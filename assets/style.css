@@ -46,13 +46,13 @@ img {
 }
 
 .logo {
-  height: 3.5em;
+  height: 2.5em;
   max-width: 150px;
 }
 
 /* COMPANY NAME – center */
 .company-name {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   padding: 8px 14px;
   background-color: #F4EAD0;
@@ -226,7 +226,7 @@ main.content a {
   }
 
   .company-name {
-    font-size: 2.6rem;
+    font-size: 2rem;
     left: 50%;
     transform: translateX(-50%);
   }
