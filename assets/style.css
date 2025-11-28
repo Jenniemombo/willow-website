@@ -11,11 +11,46 @@ body {
   flex-direction: column;
 }
 
-header {
-  font-family: 'Poiret One', sans-serif;
+a {
+  text-decoration: none;
 }
 
-/* COMPANY NAME SIZE */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* --------------------------------------------------
+   HEADER
+-------------------------------------------------- */
+.site-header {
+  background: #86a277;
+  width: 100%;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 90px;
+}
+
+/* LOGO – left */
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 3.5em;
+  max-width: 150px;
+}
+
+/* COMPANY NAME – center */
 .company-name {
   font-size: 3.6rem;
   font-weight: bold;
@@ -27,61 +62,10 @@ header {
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
+  text-align: center;
 }
 
-@media (max-width: 768px) {
-  .company-name {
-    font-size: 2.6rem;
-    text-align: center;
-  }
-}
-
-/* HAMBURGER ON RIGHT */
-.hamburger {
-  width: 32px;
-  height: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: none;
-  border: none;
-  cursor: pointer;
-  z-index: 1002;
-  margin-left: auto;   /* ensures hamburger hugs the right side */
-}
-
-/* --------------------------------------------------
-   HEADER
--------------------------------------------------- */
-.site-header {
-  background: #86a277;
-  padding: 20px 20px;
-  box-sizing: border-box;
-  width: 100%;
-}
-
-.header-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  height: 90px;
-}
-
-/* LOGO – left */
-.logo {
-  height: 3.5em;
-  max-width: 150px;
-}
-
-/* Company name centered using absolute centering */
-.company-name {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* MENU BUTTON – right */
+/* HAMBURGER MENU – right */
 .hamburger {
   width: 32px;
   height: 24px;
@@ -103,22 +87,25 @@ header {
   transition: 0.3s ease;
 }
 
-/* X animation */
 .hamburger.active span:nth-child(1) {
   transform: translateY(10px) rotate(45deg);
 }
-.hamburger.active span:nth-child(2) { opacity: 0; }
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
 .hamburger.active span:nth-child(3) {
   transform: translateY(-10px) rotate(-45deg);
 }
 
-/* --------------------------------------------------
-   NAVIGATION
--------------------------------------------------- */
 /* DESKTOP NAV */
+.nav-menu {
+  display: flex;
+  gap: 15px;
+}
+
 .nav-menu a {
-  margin: 0 10px;
-  text-decoration: none;
   color: #86a277;
   font-weight: bold;
 }
@@ -150,7 +137,6 @@ header {
   color: white;
   font-size: 1.15rem;
   font-weight: bold;
-  text-decoration: none;
   padding: 8px 0;
 }
 
@@ -158,27 +144,13 @@ header {
   text-decoration: underline;
 }
 
-/* When open */
 .mobile-nav.open {
   transform: translateX(0);
 }
 
-/* Mobile menu font override */
-.mobile-nav,
-.mobile-nav * {
+/* Override font for mobile menu */
+.mobile-nav, .mobile-nav * {
   font-family: 'Bodoni Moda', sans-serif !important;
-}
-
-/* --------------------------------------------------
-   RESPONSIVE NAV BEHAVIOR
--------------------------------------------------- */
-@media (max-width: 768px) {
-  .hamburger {
-    display: flex;
-  }
-  .nav-menu {
-    display: none;
-  }
 }
 
 /* --------------------------------------------------
@@ -204,21 +176,12 @@ main.content p {
 }
 
 main.content img {
-  max-width: 100%;
-  height: auto;
-  display: block;
   margin: 20px auto;
 }
 
 main.content a {
   color: #86a277;
   text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  main.content {
-    padding: 15px;
-  }
 }
 
 /* --------------------------------------------------
@@ -231,13 +194,47 @@ main.content a {
   margin-top: auto;
 }
 
-.social-icon {
-  width: 30px;
-  height: 30px;
-  margin: 0 10px;
+.site-footer .social-icons {
+  margin-bottom: 10px;
 }
 
+.site-footer .social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.site-footer .social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.site-footer p {
+  color: white;
+  margin: 0;
+}
+
+/* --------------------------------------------------
+   RESPONSIVE BEHAVIOR
+-------------------------------------------------- */
 @media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .company-name {
+    font-size: 2.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  main.content {
+    padding: 15px;
+  }
+
   .site-footer {
     padding: 20px 15px;
   }
