@@ -226,7 +226,7 @@ main.content a {
   }
 
   .company-name {
-    font-size: 2rem;
+    font-size: 1.7rem;
     left: 50%;
     transform: translateX(-50%);
   }
