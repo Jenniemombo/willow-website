@@ -51,8 +51,8 @@ img {
 }
 
 /* COMPANY NAME – center */
+/* COMPANY NAME – center */
 .company-name {
-  font-size: 2.6rem;   /* smaller on desktop */
   font-weight: bold;
   padding: 6px 12px;
   background-color: #F4EAD0;
@@ -63,19 +63,36 @@ img {
   transform: translateX(-50%);
   white-space: nowrap;
   text-align: center;
+  line-height: 1.2;
 }
 
+.company-name .main-name {
+  display: block;
+  font-size: 2.6rem;
+}
+
+.company-name .sub-name {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+/* Responsive adjustments */
 @media (max-width: 1024px) {
-  .company-name {
-    font-size: 2.2rem; /* medium screens */
-    padding: 5px 10px;
+  .company-name .main-name {
+    font-size: 2.2rem;
+  }
+  .company-name .sub-name {
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 768px) {
-  .company-name {
-    font-size: 1.8rem; /* mobile */
-    padding: 4px 8px;
+  .company-name .main-name {
+    font-size: 1.8rem;
+  }
+  .company-name .sub-name {
+    font-size: 0.9rem;
   }
 }
 
