@@ -15,23 +15,39 @@ header {
   font-family: 'Poiret One', sans-serif;
 }
 
-/* Company name box style */
+/* COMPANY NAME SIZE */
 .company-name {
-  font-size: 3rem;
+  font-size: 3.6rem;
   font-weight: bold;
   padding: 8px 14px;
   background-color: #F4EAD0;
   border: 2px solid #C7A76C;
   border-radius: 8px;
-  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   white-space: nowrap;
 }
 
 @media (max-width: 768px) {
   .company-name {
-    font-size: 2rem;
+    font-size: 2.6rem;
     text-align: center;
   }
+}
+
+/* HAMBURGER ON RIGHT */
+.hamburger {
+  width: 32px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1002;
+  margin-left: auto;   /* ensures hamburger hugs the right side */
 }
 
 /* --------------------------------------------------
