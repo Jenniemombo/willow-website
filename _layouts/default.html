@@ -4,22 +4,36 @@
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- MAIN CSS -->
   <link rel="stylesheet" href="/assets/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Poiret+One&display=swap" rel="stylesheet">
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
 <header class="site-header">
   <div class="header-inner">
 
-    <!-- LOGO LEFT -->
+    <!-- LEFT: LOGO -->
     <a href="/" class="logo-link">
       <img src="/assets/logo.png" class="logo" alt="Logo">
     </a>
 
-    <!-- COMPANY NAME CENTER -->
-    <div class="company-name">Willow Wellness & Massage</div>
-    
+    <!-- CENTER: COMPANY NAME -->
+    <div class="company-name">
+      Willow Wellness & Massage
+    </div>
+
+    <!-- RIGHT: HAMBURGER -->
+    <button class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
     <!-- DESKTOP NAV -->
     <nav class="nav-menu">
       <a href="/">Home</a>
@@ -29,16 +43,9 @@
       <a href="/booking">Booking</a>
     </nav>
 
-    <!-- HAMBURGER BUTTON -->
-    <button class="hamburger" id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-
   </div>
 
-  <!-- MOBILE SLIDE-IN MENU -->
+  <!-- MOBILE DROP-DOWN / SLIDE-IN NAV -->
   <nav class="mobile-nav" id="mobile-nav">
     <a href="/">Home</a>
     <a href="/about">About</a>
@@ -46,13 +53,18 @@
     <a href="/contact">Contact</a>
     <a href="/booking">Booking</a>
   </nav>
+
 </header>
 
-<main class="content">{{ content }}</main>
+<main class="content">
+  {{ content }}
+</main>
 
 <footer class="site-footer">
   <div class="footer-inner">
+
     <div class="gold-divider"></div>
+
     <div class="social-icons">
 
       <a href="https://www.instagram.com/rmt.jennie.mombourquette" target="_blank">
@@ -64,13 +76,13 @@
         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg" 
              alt="Facebook" width="30">
       </a>
-
     </div>
+
     <p>© Willow Wellness & Massage</p>
   </div>
 </footer>
 
-<!-- ✅ JAVASCRIPT SHOULD BE HERE -->
+<!-- JAVASCRIPT -->
 <script>
   const ham = document.getElementById('hamburger');
   const menu = document.getElementById('mobile-nav');
