@@ -2,13 +2,11 @@
 .company-name {
   font-size: 3rem;
   font-weight: bold;
-  .company-name {
   padding: 8px 14px;
-  background-color: #F4EAD0;  /* soft gold */
-  border: 2px solid #C7A76C;  /* warm gold outline */
+  background-color: #F4EAD0;
+  border: 2px solid #C7A76C;
   border-radius: 8px;
   display: inline-block;
-}
 }
 
 @media (max-width: 768px) {
