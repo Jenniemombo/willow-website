@@ -46,15 +46,15 @@ img {
 }
 
 .logo {
-  height: 2.5em;
+  height: 3.5em;
   max-width: 150px;
 }
 
 /* COMPANY NAME – center */
 .company-name {
-  font-size: 2.5rem;
+  font-size: 2.6rem;   /* smaller on desktop */
   font-weight: bold;
-  padding: 8px 14px;
+  padding: 6px 12px;
   background-color: #F4EAD0;
   border: 2px solid #C7A76C;
   border-radius: 8px;
@@ -63,6 +63,20 @@ img {
   transform: translateX(-50%);
   white-space: nowrap;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .company-name {
+    font-size: 2.2rem; /* medium screens */
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .company-name {
+    font-size: 1.8rem; /* mobile */
+    padding: 4px 8px;
+  }
 }
 
 /* HAMBURGER MENU – right */
@@ -119,7 +133,7 @@ img {
   position: fixed;
   top: 0;
   right: 0;
-  width: 140px;
+  width: 120px;
   max-width: 40vw;
   height: 100vh;
   background: #86a277;
@@ -223,12 +237,6 @@ main.content a {
 
   .nav-menu {
     display: none;
-  }
-
-  .company-name {
-    font-size: 1.7rem;
-    left: 50%;
-    transform: translateX(-50%);
   }
 
   main.content {
