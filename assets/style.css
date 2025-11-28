@@ -52,7 +52,7 @@ img {
 
 /* COMPANY NAME – center */
 .company-name {
-  font-size: 3.6rem;
+  font-size: 3rem;
   font-weight: bold;
   padding: 8px 14px;
   background-color: #F4EAD0;
@@ -119,7 +119,7 @@ img {
   position: fixed;
   top: 0;
   right: 0;
-  width: 120px;
+  width: 140px;
   max-width: 40vw;
   height: 100vh;
   background: #86a277;
