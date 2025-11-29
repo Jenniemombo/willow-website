@@ -264,3 +264,35 @@ main.content a {
     padding: 20px 15px;
   }
 }
+/* COMPANY NAME BLOCK */
+.company-name-box {
+  background-color: #9CB49A; /* your sage green */
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.company-name {
+  font-family: 'Poiret One', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  margin: 0;
+}
+
+.company-tagline {
+  font-family: 'Poiret One', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.25rem;
+  margin-top: 10px;
+}
+
+/* MOBILE FRIENDLY */
+@media (max-width: 768px) {
+  .company-name {
+    font-size: 2.4rem;
+  }
+
+  .company-tagline {
+    font-size: 1rem;
+  }
+}
