@@ -16,8 +16,8 @@ Since 2017, we’ve offered a warm, calming space where your body can unwind, yo
 ## Book Your Session
 
 <div class="booking-button-wrapper">
-  <a class="booking-button" href="http://www.willowwellnessmassage.clinicsense.com/book/" target="_blank">
-    Book Now on ClinicSense
+  <a href="http://www.willowwellnessmassage.clinicsense.com/book/" class="circle-button">
+  Book a Treatment
   </a>
 </div>
 
