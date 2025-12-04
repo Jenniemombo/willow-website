@@ -201,6 +201,11 @@ main.content a {
   text-decoration: underline;
 }
 
+main.content a.circle-button {
+  color: #C7A76C !important;   /* force the gold text */
+  text-decoration: none !important;
+}
+
 /* --------------------------------------------------
    FOOTER
 -------------------------------------------------- */
