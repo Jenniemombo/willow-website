@@ -54,7 +54,7 @@ img {
    COMPANY NAME BOX – CENTERED
 -------------------------------------------------- */
 .company-name {
-  background-color: #F4EAD0;
+  background-color: #F4F0E6;
   border: 2px solid #C7A76C;
   border-radius: 8px;
   padding: 6px 14px;
@@ -219,4 +219,31 @@ main.content a {
 .site-footer .social-icons img {
   width: 30px;
   height: 30px;
+}
+
+.circle-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 220px;           /* size of circle */
+  height: 220px;
+  border-radius: 50%;     /* perfect circle */
+
+  border: 2px solid #C7A76C;   /* gold outline */
+  background-color: #86a277;   /* sage green background */
+
+  color: #C7A76C;         /* gold text */
+  font-size: 1.4rem;
+  font-family: 'Poiret One', sans-serif;
+  text-decoration: none;
+
+  margin: 40px auto;      /* centers it on page */
+  transition: 0.3s ease;
+}
+
+.circle-button:hover {
+  transform: scale(1.05);
+  border-color: #e2c890;
+  color: #e2c890;
 }
