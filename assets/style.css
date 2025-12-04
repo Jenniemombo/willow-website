@@ -221,6 +221,13 @@ main.content a {
   height: 30px;
 }
 
+/* Center the booking button wrapper */
+.booking-button-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .circle-button {
   display: flex;
   align-items: center;
