@@ -37,6 +37,7 @@ Lymphatic therapy is a gentle, specialized massage that helps support the body�
 •Promoting relaxation and stress relief
 </div>
 
+
 **Who Should Avoid or Be Cautious (Check with Your Healthcare Provider):**
 <div class="indent">
 •Active infections (bacterial, viral, or fungal)
