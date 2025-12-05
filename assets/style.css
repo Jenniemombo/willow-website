@@ -205,6 +205,9 @@ main.content a.circle-button {
   color: black !important;   /* force the gold text */
   text-decoration: none !important;
 }
+.indent {
+  margin-left: 2em;   /* shifts the whole paragraph or bullet list */
+}
 
 /* --------------------------------------------------
    FOOTER
