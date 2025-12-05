@@ -17,7 +17,7 @@ Prenatal massage is a gentle, supportive therapy designed specifically for the u
 
 Postnatal massage focuses on recovery and rejuvenation after childbirth. It helps address muscle soreness, tension, and fatigue that can result from pregnancy and the demands of caring for a newborn. Techniques are tailored to gently restore balance, support healing, and promote relaxation, while also encouraging improved circulation and reduced stress. Postnatal massage not only nurtures the body but also provides a moment of self-care for new parents, helping them feel replenished, grounded, and ready to embrace the joys and challenges of parenthood.
 
-## *Craniosacral**
+## **Craniosacral**
 
 Craniosacral therapy is a gentle, hands-on approach that helps release tension in the body’s nervous system, promoting deep relaxation and overall balance. Using light, precise touch, this therapy supports the natural flow of cerebrospinal fluid, encouraging the body’s own healing processes. It can be especially beneficial for those experiencing stress, chronic headaches, migraines, neck or back pain, anxiety, or sleep difficulties. Craniosacral therapy is also helpful for people recovering from injury or looking to enhance overall wellness, offering a soothing, restorative experience that nurtures both body and mind.
 
@@ -26,7 +26,7 @@ Craniosacral therapy is a gentle, hands-on approach that helps release tension i
 
 Lymphatic therapy is a gentle, specialized massage that helps support the body’s natural lymphatic system, promoting the removal of toxins and excess fluids. This therapy encourages healthy circulation, reduces swelling, and can help boost the immune system, leaving you feeling lighter, refreshed, and revitalized. It’s particularly beneficial for those recovering from surgery or injury, managing chronic swelling, or seeking overall wellness and detoxification. By stimulating the lymphatic flow, this therapy not only supports physical health but also provides a calming, restorative experience that nurtures both body and mind.
 
-Lymphatic Therapy: Who It’s For and Important Considerations
+**Lymphatic Therapy:** Who It’s For and Important Considerations
 
 **Who Can Benefit:**
 	•	Reducing swelling after surgery or injury
