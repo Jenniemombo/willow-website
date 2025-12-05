@@ -15,7 +15,7 @@ We’d love to hear from you! Whether you’re booking your next massage or have
 - **Owner & Therapist:** Jennie Mombourquette
 - **Phone:** [(403) 968-3601](tel:4039683601) (text or call)  
 - **Email:** [willowwellness.m.l@gmail.com](mailto:willowwellness.m.l@gmail.com)  
-- **Online Booking:** [Book your appointment here](https://willowwellnessmassage.clinicsense.com/book/)  
+- **Online Booking:** [Book your appointment here](https://willowwellnessmassage.clinicsense.com/)  
 
 ---
 
@@ -39,7 +39,7 @@ We’d love to hear from you! Whether you’re booking your next massage or have
 ---
 
 ## 📍 Find Us
-[View Willow Wellness & Massage on Google Maps](https://g.page/r/CfZJvZQJxZzSEBM)
+[View Willow Wellness & Massage on Google Maps](https://maps.app.goo.gl/CUVVkN4bZ1HqvSz66?g_st=ipc)
 
 ---
 
