@@ -29,21 +29,25 @@ Lymphatic therapy is a gentle, specialized massage that helps support the body�
 **Lymphatic Therapy:** Who It’s For and Important Considerations
 
 **Who Can Benefit:**
-&nbsp;&nbsp;Reducing swelling after surgery or injury
-&nbsp;&nbsp;Supporting the body’s natural detoxification
-&nbsp;&nbsp;Managing mild fluid retention
-&nbsp;&nbsp;Boosting circulation and immune function
-&nbsp;&nbsp;Promoting relaxation and stress relief
+<div class="indent">
+Reducing swelling after surgery or injury
+Supporting the body’s natural detoxification
+Managing mild fluid retention
+Boosting circulation and immune function
+Promoting relaxation and stress relief
+</div>
 
 **Who Should Avoid or Be Cautious (Check with Your Healthcare Provider):**
-&nbsp;&nbsp;Active infections (bacterial, viral, or fungal)
-&nbsp;&nbsp;Blood clots or deep vein thrombosis (DVT)
-&nbsp;&nbsp;Uncontrolled heart problems (e.g., congestive heart failure)
-&nbsp;&nbsp;Severe kidney or liver disease
-&nbsp;&nbsp;Acute inflammation or fever
-&nbsp;&nbsp;Cancer (unless cleared by a physician)
-&nbsp;&nbsp;Uncontrolled high blood pressure
-&nbsp;&nbsp;Recent major surgery (unless cleared by a physician)
+<div class="indent">
+Active infections (bacterial, viral, or fungal)
+Blood clots or deep vein thrombosis (DVT)
+Uncontrolled heart problems (e.g., congestive heart failure)
+Severe kidney or liver disease
+Acute inflammation or fever
+Cancer (unless cleared by a physician)
+Uncontrolled high blood pressure
+Recent major surgery (unless cleared by a physician)
+</div>
 
 **Note:** Lymphatic therapy is gentle and safe for most people, but your health and safety are always our priority. If you have any concerns, we’ll guide you to ensure the therapy is both beneficial and supportive for your wellness journey.
 
