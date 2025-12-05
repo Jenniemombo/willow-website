@@ -40,14 +40,14 @@ Lymphatic therapy is a gentle, specialized massage that helps support the body�
 
 **Who Should Avoid or Be Cautious (Check with Your Healthcare Provider):**
 <div class="indent">
-- Active infections (bacterial, viral, or fungal)
-- Blood clots or deep vein thrombosis (DVT)
-- Uncontrolled heart problems (e.g., congestive heart failure)
-- Severe kidney or liver disease
-- Acute inflammation or fever
-- Cancer (unless cleared by a physician)
-- Uncontrolled high blood pressure
-- Recent major surgery (unless cleared by a physician)
+•Active infections (bacterial, viral, or fungal)<br>
+•Blood clots or deep vein thrombosis (DVT)<br>
+•Uncontrolled heart problems (e.g., congestive heart failure)<br>
+•Severe kidney or liver disease<br>
+•Acute inflammation or fever<br>
+•Cancer (unless cleared by a physician)<br>
+•Uncontrolled high blood pressure<br>
+•Recent major surgery (unless cleared by a physician)<br>
 </div>
 
 **Note:** Lymphatic therapy is gentle and safe for most people, but your health and safety are always our priority. If you have any concerns, we’ll guide you to ensure the therapy is both beneficial and supportive for your wellness journey.
