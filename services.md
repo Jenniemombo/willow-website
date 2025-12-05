@@ -30,11 +30,11 @@ Lymphatic therapy is a gentle, specialized massage that helps support the body�
 
 **Who Can Benefit:**
 <div class="indent">
-- Reducing swelling after surgery or injury
-- Supporting the body’s natural detoxification
-- Managing mild fluid retention
-- Boosting circulation and immune function
-- Promoting relaxation and stress relief
+•Reducing swelling after surgery or injury<br>
+•Supporting the body’s natural detoxification<br>
+•Managing mild fluid retention<br>
+•Boosting circulation and immune function<br>
+•Promoting relaxation and stress relief<br>
 </div>
 
 
