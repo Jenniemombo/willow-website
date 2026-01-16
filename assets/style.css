@@ -265,7 +265,7 @@ main.content a.circle-button {
 .about-photo {
   width: 140px;          /* size of image */
   max-width: 100%;       /* makes it responsive on mobile */
-  border-radius: 50%;    /* makes it circular */
+  border-radius: 70%;    /* makes it circular */
   display: block;        /* allows centering */
   margin: 2rem auto;     /* centers it with space above/below */
   box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* soft shadow */
