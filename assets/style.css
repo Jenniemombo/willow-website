@@ -209,7 +209,7 @@ main.content a.circle-button {
   text-decoration: none !important;
 }
 .about-photo {
-  width: 100px;          /* size of image */
+  width: 90px;          /* size of image */
   max-width: 100%;       /* makes it responsive on mobile */
   border-radius: 50%;    /* makes it circular */
   display: block;        /* allows centering */
