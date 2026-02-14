@@ -20,11 +20,13 @@ We’d love to hear from you! Whether you’re booking your next massage or have
 ---
 
 ## 🕒 Hours
-- Tuesday:9:00 AM – 6:00 PM 
+- Monday: Closed
+- Tuesday: 9:00 AM – 6:00 PM 
 - Wednesday: 9:00 AM – 6:00 PM 
 - Thursday: 9:00 AM - 1:00 PM
 - Friday: 9:00 AM – 6:00 PM  
-- Saturday – Sunday: 9:00 AM – 2:00 PM  
+- Saturday: 9:00 AM – 2:00 PM
+- Sunday: Closed
 
 ---
 
